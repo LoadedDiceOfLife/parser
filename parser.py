@@ -132,7 +132,3 @@ class Areas:
         import simplejson as json
         json.dumps(self.area_data)
         json.dumps(self.regions)
-
-b = Areas()
-b.add_deprication()
-b.add_housing()
